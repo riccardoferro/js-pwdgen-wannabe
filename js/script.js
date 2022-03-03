@@ -11,3 +11,6 @@ console.log(
   ${nome}${cognome}${ColorePreferito}${21}
   `
 );
+
+document.getElementById("pass").innerText =
+  "la tua password e':" + " " + nome + cognome + ColorePreferito + 21;
